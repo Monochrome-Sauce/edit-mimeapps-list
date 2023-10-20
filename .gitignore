@@ -1,0 +1,8 @@
+#Meson output directory
+build
+
+#Work environment specific files
+.cache
+*.swp
+.~
+*.sublime-workspace

@@ -1,0 +1,29 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+		}
+	],
+	"debugger_configurations":
+	[
+		{
+			"type": "gdb",
+			"request": "launch",
+			"name": "Launch Program",
+			"target": "./build/edit-mimeapps-list",
+			"cwd": "${folder}",
+			"valuesFormatting": "parseText",
+		},
+	],
+	"settings":
+	{
+		"LSP":
+		{
+			"clangd":
+			{
+				"enabled": true
+			}
+		}
+	},
+}

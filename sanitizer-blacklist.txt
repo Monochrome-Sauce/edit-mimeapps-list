@@ -1,0 +1,3 @@
+# LSAN_OPTIONS=suppressions=<path to this file>
+leak:/lib/*fontconfig
+leak:/lib/*glib
